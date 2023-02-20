@@ -1,6 +1,6 @@
-const express = require('express');
+import express from 'express'
 const app = express();
-const dotenv = require('dotenv')
+import dotenv from 'dotenv'
 dotenv.config();
 
 app.use(express.json())
