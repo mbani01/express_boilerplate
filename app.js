@@ -3,7 +3,7 @@ const app = express();
 import dotenv from 'dotenv'
 dotenv.config();
 import helmet from 'helmet'
-import {errorHandler} from './src/middelware/index.middelware.js'
+import {errorHandler} from './src/middelwares/index.middelware.js'
 import {testRouter} from './src/routes/index.routes.js';
 
 app.use(helmet()); // adding security layers 
